@@ -1,0 +1,92 @@
+.spacer{
+    height:4.5em
+}
+
+body{
+    background-color: beige;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "mission mission mission"
+    "founders community volunteer"
+    "founders community donate";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+.mission{
+    display: grid;
+    grid-area: mission;
+    height: 20vh;
+
+    padding: 2em;
+    border-radius: 5px;
+    margin: 1em;
+    background-color: darksalmon;
+}
+
+.founders{
+    display: grid;
+    grid-area: founders;
+    padding: 2em;
+    border-radius: 5px;
+    margin: 1em;
+    background-color: cornflowerblue;
+}
+
+.founder-list{
+    font-size: 1.5em;
+    list-style: none;
+    color:rgb(254, 254, 253);
+
+    li{
+        margin-top: 2em;
+    }
+}
+
+.community{
+    display: grid;
+    grid-area: community;
+    padding: 2em;
+    border-radius: 5px;
+    margin: 1em;
+    background-color: mediumaquamarine;
+}
+
+.volunteer{
+    display:grid;
+    grid-area: volunteer;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 2em
+}
+
+.donate{
+    display:grid;
+    grid-area: donate;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 2em
+}
+
+.title{
+    font-size: 4em;
+    color: white;
+}
+
+.desc-paragraph{
+    width:70%;
+    justify-self: center;
+    font-weight: 600;
+    color:rgb(254, 254, 253)
+}
+
+.tile{
+    box-shadow: 5px 5px black;
+}
