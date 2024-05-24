@@ -18,6 +18,12 @@ body{
 
 }
 
+.separator{
+    height: 0px;
+    width: 70%;
+    border: solid white 2px
+}
+
 .mission{
     display: grid;
     grid-area: mission;
